@@ -12,7 +12,7 @@ app.controller("SingleInputCtrl",function($scope,$uibModal){
             }
         }).result.then(
             function(result){
-                $scope.name = result+v;
+                $scope.name = result;
             },
             function(reason){
                 console.log(reason);
